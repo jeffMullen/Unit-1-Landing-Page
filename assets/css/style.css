@@ -76,3 +76,15 @@ a {
 a:hover {
     border-bottom: 1px solid var(--heading-color);
 }
+
+footer {
+    background-color: var(--heading-color);
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding: 17px;
+    color: var(--color-light);
+    font-size: 18px;
+}
