@@ -26,9 +26,12 @@ header {
 
 li {
     display: inline;
-    color: var(--color-light);
     font-size: 20px;
     padding: 20px;
+}
+
+li a {
+    color: var(--color-light);
 }
 
 /* Main content styles */
@@ -53,6 +56,15 @@ p {
 .graphic {
     margin: var(--margin-main);
 }
+
+img {
+    filter:invert(1);
+}
+
+/* div {
+    padding: 10px;
+    background-color: #665568;
+} */
 
 figcaption {
     margin-top: 5px;
