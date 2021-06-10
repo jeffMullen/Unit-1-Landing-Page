@@ -1,6 +1,7 @@
 :root {
     --heading-color: #578290;
     --color-light: #f7cdcf;
+    --margin-main: 20px;
 }
 
 * {
@@ -20,7 +21,7 @@ header {
     display: flex;
     justify-content: flex-end;
     padding: 40px;
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-main);
 }
 
 li {
@@ -28,4 +29,31 @@ li {
     color: var(--color-light);
     font-size: 20px;
     padding: 20px;
+}
+
+/* Main content styles */
+
+main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 45px;
+    margin: var(--margin-main);
+}
+
+p {
+    margin: var(--margin-main);
+}
+
+.graphic {
+    margin: var(--margin-main);
+}
+
+form {
+    margin: 75px;
 }
