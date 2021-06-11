@@ -18,9 +18,11 @@ body {
 
 header {
     background-color: var(--heading-color);
+    width: 100%;
     display: flex;
+    /* position: sticky; */
     justify-content: flex-end;
-    padding: 40px;
+    padding: 40px 0;
     margin-bottom: var(--margin-main);
 }
 
